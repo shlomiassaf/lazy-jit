@@ -11,6 +11,7 @@ import { LazyComponent } from './lazy.component';
     CommonModule,
     RouterModule.forChild(routes)
   ],
+  providers: [],
   declarations: [
     LazyComponent
   ]
