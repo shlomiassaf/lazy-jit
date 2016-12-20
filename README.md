@@ -8,7 +8,7 @@ A small POC for lazy loading the compiler while using AOT compilation for the ma
 - Open it in the browser 
 
 **OR:**
-- Go to [AOT compiled demo](https://shlomiassaf.github.com/lazy-jit)
+- Go to [AOT compiled demo](https://shlomiassaf.github.io/lazy-jit)
 
 **Then:**
 - Open `network` tab on your dev-tools window.
@@ -16,3 +16,7 @@ A small POC for lazy loading the compiler while using AOT compilation for the ma
 - See the compiler lazy load in the `network` tab
 - Click on the `Add` button to compile and instantiate a component on the fly.
 
+On the right, the lazy loaded module, with the compiler bundled in.
+On the left, the main bundle, no compiler.
+
+![image](https://cloud.githubusercontent.com/assets/5377501/21351744/d5264a58-c6c6-11e6-830e-43a83d455068.png)
