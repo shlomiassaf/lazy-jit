@@ -2,6 +2,8 @@
 
 A small POC for lazy loading the compiler while using AOT compilation for the main bundle.
 
+See [the blog post](http://blog.assaf.co/angular-2-harmony-aot-compilation-with-lazy-jit-2/) this repo was built for.
+
 **Either:** 
 - Compile the app (`npm run compile`)
 - run it in a server (e.g: `cd dist/client` & `http-server`)
